@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 9988121}
   - component: {fileID: 9988125}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: GroundBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -729,11 +729,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1262141957}
   - component: {fileID: 1262141956}
-  - component: {fileID: 1262141955}
   - component: {fileID: 1262141954}
   - component: {fileID: 1262141958}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: PlayerCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -741,14 +740,6 @@ GameObject:
   m_IsActive: 1
 --- !u!81 &1262141954
 AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262141953}
-  m_Enabled: 1
---- !u!124 &1262141955
-Behaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -805,13 +796,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262141953}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.73, y: 14.03, z: -9.75}
+  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
+  m_LocalPosition: {x: -0.53, y: 12.97, z: -15.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!1818360608 &1262141958
 PositionConstraint:
   m_ObjectHideFlags: 0
@@ -821,8 +812,8 @@ PositionConstraint:
   m_GameObject: {fileID: 1262141953}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: -0.73, y: 14.03, z: -9.75}
-  m_TranslationOffset: {x: -0.22339487, y: 12.481999, z: -0.17000008}
+  m_TranslationAtRest: {x: -0.53, y: 12.97, z: -15.67}
+  m_TranslationOffset: {x: -0.023394823, y: 11.422, z: -6.09}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 1
   m_AffectTranslationZ: 1
