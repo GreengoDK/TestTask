@@ -1000,6 +1000,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5816206032712432140, guid: 25e7e546a87fe854b807976d6e83f7d3,
+        type: 3}
+      propertyPath: AllWeapons.Array.data[1]
+      value: 
+      objectReference: {fileID: 374151406915157143, guid: 31dc0c7abd74a5049a26702c7ad2e2e9,
+        type: 3}
     - target: {fileID: 5816206032712432148, guid: 25e7e546a87fe854b807976d6e83f7d3,
         type: 3}
       propertyPath: m_Name

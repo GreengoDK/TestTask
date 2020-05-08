@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2718376538270231560}
   - component: {fileID: 2718376538270231561}
   - component: {fileID: 2718376538270231566}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 2718376539445865791}
   - component: {fileID: 2718376539445865788}
   - component: {fileID: 8648870177189606877}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DamageComponent
   m_TagString: Trigger
   m_Icon: {fileID: 0}
